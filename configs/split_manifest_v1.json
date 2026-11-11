@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "train_sha256": "758dbf17caa8db4ef2e58f51900375d4f39f58377e9f9da06457995af7f7fb57",
+  "membership_sha256": "aec9308ffaf18d9ae8215a3cd3e5808f7bd626770814de8c630f070b774b6bd7",
+  "development_rows": 12000,
+  "confirmation_rows": 3000,
+  "holdout_seed": 20261111,
+  "cv_seeds": [
+    20261111,
+    20261112
+  ],
+  "folds": 5,
+  "group_policy": "No exact duplicates; no near pairs at IQR Euclidean distance <= 0.1. IID stratification assumed.",
+  "holdout_status": "Descriptive full-data audit performed before reservation. No predictive performance evaluated."
+}
